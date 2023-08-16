@@ -6,7 +6,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.SplitPane;
 import javafx.scene.input.MouseEvent;
 
-public class ComprarProductos {
+public class agregarProductos {
     public SplitPane ContenedroInterfaz;
     public Label tituloInterfaz;
     public Button productosPerecederos;

@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="controller.productosPerecederos">
-  <padding>
-    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-  </padding>
 
-  <Label fx:id="welcomeText"/>
-  <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="558.0" prefWidth="784.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane dividerPositions="0.7570332480818415" layoutX="1.0" layoutY="1.0" prefHeight="558.0" prefWidth="784.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TableView fx:id="tabla1" prefHeight="277.0" prefWidth="579.0">
+                     <columns>
+                        <TableColumn fx:id="codigoProductoPerecedero" prefWidth="67.0" text="Codigo" />
+                        <TableColumn fx:id="nombre" prefWidth="67.0" text="Nombre" />
+                        <TableColumn prefWidth="87.0" text="Identificacion" />
+                        <TableColumn prefWidth="71.0" text="Dirrecion" />
+                        <TableColumn prefWidth="63.0" text="Telefono" />
+                        <TableColumn prefWidth="96.0" text="Email" />
+                        <TableColumn prefWidth="126.0" text="Fecha de Nacimiento" />
+                     </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="556.0" prefWidth="300.0" />
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
