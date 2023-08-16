@@ -13,4 +13,6 @@ module almacen.com.almacenjava {
     
     opens Model to javafx.fxml;
     exports Model;
+    exports View;
+    opens View to javafx.fxml;
 }

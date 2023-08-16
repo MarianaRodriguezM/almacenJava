@@ -118,7 +118,7 @@
             <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>almacen.com.almacenjava/Model.HelloApplication</mainClass>
+              <mainClass>almacen.com.almacenjava/View.HelloApplication</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>
