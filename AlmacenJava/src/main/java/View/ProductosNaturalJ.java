@@ -17,4 +17,13 @@ public class ProductosNaturalJ {
     void aceptar (ActionEvent event){
         System.exit(0);
     }
+
+    public void EventoAgregarCliente(ActionEvent actionEvent) {
+    }
+
+    public void EventoEliminarCliente(ActionEvent actionEvent) {
+    }
+
+    public void EventoRegresarPrincipal(ActionEvent actionEvent) {
+    }
 }

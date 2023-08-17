@@ -11,10 +11,10 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<fx:root nodeOrientation="RIGHT_TO_LEFT" prefHeight="503.0" prefWidth="701.0" type="AnchorPane" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AlmacenController">
+<fx:root nodeOrientation="RIGHT_TO_LEFT" prefHeight="414.0" prefWidth="735.0" type="AnchorPane" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.AlmacenController">
    <children>
       <Pane nodeOrientation="LEFT_TO_RIGHT" />
-      <Separator fx:id="Seprador" layoutX="348.0" layoutY="-8.0" orientation="VERTICAL" prefHeight="503.0" prefWidth="18.0" style="-fx-background-color: #287bae;">
+      <Separator fx:id="Seprador" layoutX="420.0" layoutY="23.0" orientation="VERTICAL" prefHeight="367.0" prefWidth="16.0" style="-fx-background-color: #287bae;">
          <effect>
             <ColorAdjust />
          </effect>
@@ -22,12 +22,12 @@
             <Insets />
          </opaqueInsets>
       </Separator>
-      <Label alignment="TOP_CENTER" layoutX="408.0" layoutY="263.0" prefHeight="58.0" prefWidth="269.0" text="Bienvenidos" textAlignment="JUSTIFY" textFill="#287bae" textOverrun="CLIP">
+      <Label alignment="TOP_CENTER" layoutX="466.0" layoutY="270.0" prefHeight="58.0" prefWidth="269.0" text="Bienvenidos" textAlignment="JUSTIFY" textFill="#287bae" textOverrun="CLIP">
          <font>
             <Font name="Cambria" size="45.0" />
          </font>
       </Label>
-      <ImageView fitHeight="221.0" fitWidth="269.0" layoutX="395.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="206.0" fitWidth="236.0" layoutX="474.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../imagenes/logo.png" />
          </image>
